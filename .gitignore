@@ -1,0 +1,6 @@
+.vscode
+.local
+.cache
+icon.svg
+.config/gtk-3.0
+.config/nvim/lua/lazy-lock.json
