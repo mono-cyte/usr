@@ -5,7 +5,8 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-    "keybindings": [
+    "keybindings": 
+    [
         {
             "id": "Terminal.CopyToClipboard",
             "keys": "ctrl+c"
@@ -19,18 +20,22 @@
             "keys": "alt+shift+d"
         }
     ],
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
     "newTabPosition": "afterCurrentTab",
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "closeOnExit": "never",
             "pathTranslationStyle": "wsl"
         },
-        "list": [
+        "list": 
+        [
             {
                 "colorScheme": "Campbell Powershell",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -43,11 +48,34 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "elevate": true,
+                "elevate": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26",
                 "opacity": 60,
+                "startingDirectory": null,
+                "useAcrylic": true
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "bar",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{ffcccf49-ef94-4a2c-a3bb-542ad059d550}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt",
+                "opacity": 60,
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
                 "startingDirectory": null,
                 "useAcrylic": true
             },
@@ -97,28 +125,6 @@
                 "hidden": true,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "colorScheme": "Campbell",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "bar",
-                "elevate": true,
-                "font": {
-                    "face": "Cascadia Mono",
-                    "size": 12
-                },
-                "guid": "{ffcccf49-ef94-4a2c-a3bb-542ad059d550}",
-                "hidden": false,
-                "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt",
-                "opacity": 60,
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": null,
-                "useAcrylic": true
             }
         ]
     },

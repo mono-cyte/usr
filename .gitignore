@@ -1,6 +1,12 @@
-.vscode
-.local
-.cache
+bin/*
+.vscode/*
+!.vscode/README.md
+.config/.docker/*
+!.config/.docker/config.json
+!.config/.docker/daemon.json
+!.config/.docker/windows-daemon.json
+.local/*
+.cache/*
 icon.svg
 .config/gtk-3.0
 .config/nvim/lua/lazy-lock.json
